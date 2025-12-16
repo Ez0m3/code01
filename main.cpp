@@ -3,11 +3,10 @@
 #include"myarr.h"
 void test()
 {
-    myarr<int> intarr1;
-    intarr1.pushback(5);
-    intarr1.pushback(10);
-    intarr1.pushback(15);
-    std::cout<<intarr1.size();
+    myarr<std::string> strarr;
+    strarr.pushback("天下");
+    strarr.pushback("无敌");
+    strarr.print();
 }
 int main()
 {
